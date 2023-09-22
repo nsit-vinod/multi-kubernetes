@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: vinodgrwrya/multi-server
+        image: vinodgrwrya/multi-server-k8s-pgfix-gh
         ports:
         - containerPort: 5000
         env:

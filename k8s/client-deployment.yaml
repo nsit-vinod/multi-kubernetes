@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: vinodgrwrya/multi-client
+          image: vinodgrwrya/multi-client-k8s-gh
           ports:
             - containerPort: 3000
